@@ -8,3 +8,9 @@ data:
   payment_gateway_url: "https://payment-gateway.example.com"
   max_cart_items: "50"
   session_timeout: "3600"
+  .env: |
+    DATABASE_URL=mysql://ecom-db:3306/shop
+    CACHE_SIZE=1000
+    PAYMENT_GATEWAY_URL=https://payment-gateway.example.com
+    MAX_CART_ITEMS=50
+    SESSION_TIMEOUT=3600
